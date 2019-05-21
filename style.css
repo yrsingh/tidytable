@@ -62,3 +62,30 @@
     top: 30px;
     left: 30px;
 }
+
+
+.carousel-caption.title-text {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-item {
+    max-height: 95vh;
+    overflow: hidden;
+}
+
+.carousel-item>img {
+    /* corrects inline gap in enclosing div */
+    display: block;
+    max-width: 100%;
+    /* just in case, to force correct aspect ratio */
+    height: auto !important;
+    width: auto\9;
+    /* ie8+9 */
+    /* lt ie8 */
+    -ms-interpolation-mode: bicubic;
+}
