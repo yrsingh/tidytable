@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Tidy Table</title>
+</head>
+
+<body>
+
+    <div class="full-menu">
+        <div class="full-menu--middle">
+            <a class="menu-toggle menu-toggle--close" style="cursor: pointer;"><img src="open-iconic-master/svg/x.svg" style="width: 2rem; height: auto;"/></a>
+            <ul class="main-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#incentive">Incentive</a></li>
+                <li><a href="#innovation">Innovation</a></li>
+                <li><a data-toggle="modal" data-target="#contactModal" style="cursor: pointer;">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="https://formspree.io/tidytable@mailinator.com" method="POST">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Lets get in touch!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="text" name="name" class="form-control" id="inputName" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="johndoe@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage">Message</label>
+                            <textarea type="text" name="message" class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input class="btn btn-primary" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="jumbotron d-flex align-items-center about" style="height: 100vh;" id="home">
+        <a class="menu-toggle" style="cursor: pointer;"><img src="open-iconic-master/svg/menu.svg" style="width: 2rem; height: auto;"/></a>
+        <div class="col-md-4 mx-auto text-center">
+            <h1 class="display-4 font-weight-normal" data-aos="fade-right">Tidy Table</h1>
+            <p class="lead font-weight-normal" data-aos="fade-left">A start to a product that improves efficiency, eliminates unnecesary work, and increases productivity.</p>
+            <a href="#incentive" data-aos="zoom-in">
+                <img src="open-iconic-master/svg/chevron-bottom.svg" style="width: 2rem; height: auto;"/></a>
+        </div>
+    </section>
+
+    <div class="container" id="incentive">
+        <h1 class="display-4 bg-danger text-white text-right px-2">The Incentive</h1>
+
+        <div class="row">
+            <div class="col-md-3 d-flex bg-dark text-white">
+                <h1 class="align-self-center text-center">Inspired By Our Daily Problems</h1>
+            </div>
+            <div class="col-md-9">
+                <p class="spaced-out-par">Our idea addressed the problem of bad hygiene and unnecessary labor associated with many waiter positions in restaurants. The tedious work being done in restaurants, especially cleaning tables, were very inefficient, took up unnecessary
+                    labor, and was a cost to the hygiene of the customers. In addition to the unnecessary labor that was being put into use in these restaurant, we found that their work was not helping at all. Bacteria and other germs were still present
+                    on many restaurant tables after work being done by waiters, and many were not satisfied. From our survey addressing current restaurant hygiene, over 95 percent of students had a been to a restaurant where the table hygiene and cleanliness
+                    was not up to their satisfaction. Additionally, the same survey reported that over two-thirds of the students we surveyed preferred automated cleaning over current practices as the standard method of cleaning in the food industry.
+                    Ultimately, unnecessary manual labor was being implemented where simple automation would have been much more efficient and cost effective. Current solutions include handheld devices, which reduce the unnecessary labor, but do not eliminate
+                    it completely. Our product Tidy Table targets both the consumers of this industry, as well as the business owners. The product provides the consumers of the industry with satisfying conditions on restaurant tables, along with faster
+                    restaurant service because of its efficiency. The product also drastically reduces costs the businesses incur to employ workers with the extra task of cleaning tables, and pushes the industry one step closer to full automation, where
+                    restaurants will function at maximum capacity, efficiency, as well as quality. </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container" id="innovation">
+        <h1 class="display-4 bg-secondary text-white px-2">Our Vision</h1>
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="display-4 text-center m-5" data-aos="fade-in">An <b><u>adaptive</u></b> surface cleaner. </h1>
+                <p class="spaced-out-par">We envison our product to be able to keep restaurant tables clean and sanitary for customers. The tidy table will automatically route towards tables that need cleaning and first checks to make sure plates and the check has been picked
+                    up. It then proceeds to do the cleaning process. It will sweep all the food/napkins/leftover scraps into a garbage bag integrated in the robot. Then it will use use the spray cleaner and wipe the table clean. Lastly it will go back
+                    to it's station and await for the next table that needs cleaning. Our idea addressed the problem of bad hygiene and unnecessary labor associated with many waiter positions in restaurants. The tedious work being done in restaurants,
+                    especially cleaning tables, were very inefficient, took up unnecessary labor, and was a cost to the hygiene of the customers. In addition to the unnecessary labor that was being put into use in these restaurant, we found that their
+                    work was not helping at all. Bacteria and other germs were still present on many restaurant tables after work being done by waiters, and a more rigid method of cleaning was necessary method of cleaning was needed for more efficiency
+                    and better performance. Current solutions include handheld devices, which reduce the unnecessary labor, but do not eliminate it completely.</p>
+            </div>
+            <div class="col-md-3 d-flex bg-primary text-white">
+                <h1 class="align-self-center text-center">Our Goal With This Product</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container mb-3">
+        <hr>
+        <center>
+            <h6>
+                <a href="#home">Tidy Table</a> - Dublin, California -
+                <a href="#" data-toggle="modal" data-target="#contactModal" style="cursor: pointer;">Contact</a>
+            </h6>
+        </center>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $('.menu-toggle').on('click', function() {
+            $('.full-menu').toggleClass('full-menu--open');
+        });
+        $('.main-nav li a').on('click', function() {
+            $('.full-menu').toggleClass('full-menu--open');
+        });
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+        AOS.init({ once: true, duration: 1200 });
+    </script>
+
+</body>
+
+</html>
